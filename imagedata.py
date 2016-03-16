@@ -10,6 +10,8 @@ def get_exif(fn): # opens image "fn" (filename) and extracts and decodes the met
         ret[decoded] = value
     return ret
 
+# change the parameter to get_exif to refer to a file on your own machine
+# it is simplest to put the image in the same folder as your code
 tags = get_exif("/Users/lindam/Pictures/ethanwallace.JPG")
 
 #print (type(tags))
