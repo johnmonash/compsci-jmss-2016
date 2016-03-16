@@ -50,3 +50,4 @@ print (length(words))
 #write a function that returns the sum of all the numbers in a list
 
 def sumList(l):
+    print(l)
