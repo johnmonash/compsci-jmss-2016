@@ -24,4 +24,3 @@ print ("gps: ", type(tags["GPSInfo"]))
 for tag in tags:
     print (tag)
 print (tags["GPSInfo"])
-
