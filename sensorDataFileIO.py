@@ -6,10 +6,14 @@ headers = data.readline()
 print (headers)
 
 templist=[]
+humlist=[]
 for line in data:
     line = line.strip()
     datalist = line.split(",")
     templist.append(float(datalist[1]))
+    templist.append(float(datalist[2]))
+
+
 
 print(templist)
 
